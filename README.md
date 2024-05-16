@@ -18,3 +18,13 @@ Components<br />
   
 Additional notes<br />
 > As of the time of this commit none of the tests in any NEAR examples that were tried as basis would work due to issues with asyncronous calls in the testing framework
+
+Useful CLI commands<br />
+> nvm use 18 <br />
+> npm run dev 
+
+> near login <br />
+> near deploy <account-name> build/film-generator-near.wasm <br />
+> near view filmgen.testnet get_film_combination <br />
+> near view filmgen.testnet get_film_combinations <br /> 
+> near call filmgen.testnet donate_to_photographer '{"photographerToDonateTo":"filmgen.testnet "}' --useAccount <account-name> --depositYocto 1000000
