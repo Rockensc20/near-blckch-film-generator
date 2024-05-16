@@ -1,0 +1,26 @@
+{
+  "name": "film-generator-near",
+  "version": "3.0.0",
+  "license": "(MIT AND Apache-2.0)",
+  "type": "module",
+  "scripts": {
+    "build": "near-sdk-js build src/contract.ts build/film-generator-near.wasm",
+    "test": "$npm_execpath run build && ava -- ./build/film-generator-near.wasm"
+  },
+  "dependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0",
+    "near-cli": "^4.0.8",
+    "near-sdk-js": "1.0.0",
+    "rand-seed": "^1.0.2"
+  },
+  "devDependencies": {
+    "@ava/typescript": "^4.1.0",
+    "ava": "^6.1.2",
+    "near-workspaces": "^3.5.0",
+    "ts-morph": "^21.0.1",
+    "ts-node": "^10.9.2",
+    "tsimp": "^2.0.11",
+    "typescript": "^5.3.3"
+  }
+}

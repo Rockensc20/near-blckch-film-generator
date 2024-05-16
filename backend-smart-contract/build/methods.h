@@ -1,0 +1,4 @@
+DEFINE_NEAR_METHOD(donate_to_photographer)
+DEFINE_NEAR_METHOD(get_film_combination)
+DEFINE_NEAR_METHOD(get_film_combinations)
+DEFINE_NEAR_METHOD(save_film_combination)

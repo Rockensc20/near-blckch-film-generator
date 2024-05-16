@@ -1,0 +1,18 @@
+node:net:1880
+      const error = new UVExceptionWithHostPort(rval, 'listen', address, port);
+                    ^
+
+Error: listen ENOTSUP: operation not supported on socket /mnt/c/Users/lukas/Documents/Master@HGB/Blockchain/NEAR/film_generator/film-generator-near/.tsimp/daemon/socket
+    at Server.setupListenHandle [as _listen2] (node:net:1880:21)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2054:5)
+    at #listen (file:///mnt/c/Users/lukas/Documents/Master@HGB/Blockchain/NEAR/film_generator/film-generator-near/node_modules/sock-daemon/dist/esm/server.js:217:16)
+    at DaemonServer.listen (file:///mnt/c/Users/lukas/Documents/Master@HGB/Blockchain/NEAR/film_generator/film-generator-near/node_modules/sock-daemon/dist/esm/server.js:169:32) {
+  code: 'ENOTSUP',
+  errno: -95,
+  syscall: 'listen',
+  address: '/mnt/c/Users/lukas/Documents/Master@HGB/Blockchain/NEAR/film_generator/film-generator-near/.tsimp/daemon/socket',
+  port: -1
+}
+
+Node.js v20.12.2
