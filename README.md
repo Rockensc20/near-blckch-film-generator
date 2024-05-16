@@ -1,6 +1,6 @@
-[![](https://img.shields.io/badge/NEAR-000000.svg?style=for-the-badge&logo=NEAR&logoColor=white)
-[![](https://img.shields.io/badge/Contract-JS-yellow)](contract-ts)
-[![](https://img.shields.io/badge/Frontend-JS-yellow)](frontend)
+[![](https://img.shields.io/badge/NEAR-000000.svg?style=for-the-badge&logo=NEAR&logoColor=white)](https://near.org/)
+[![](https://img.shields.io/badge/Contract-JS-yellow)](backend-smart-contract)
+[![](https://img.shields.io/badge/Frontend-JS-yellow)](frontend-dapp)
 
 # Film Combination Generator built on NEAR
 This is the NEAR blockchain project repository for the "blockchains" course of the mobile computing master degree at the University of Applied Sciences Upper Austria.
